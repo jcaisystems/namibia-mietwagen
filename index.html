@@ -124,12 +124,12 @@
         /* ─── HERO ─── */
         .hero {
             position: relative;
-            min-height: 90vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             overflow: hidden;
-            padding-top: 80px;
-            padding-bottom: 80px;
+            padding-top: 60px;
+            padding-bottom: 60px;
         }
 
         .hero-bg {
@@ -587,13 +587,17 @@
         }
 
         @media (max-width: 768px) {
+            .hero {
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
             .hero-bg::after {
                 background: linear-gradient(to top, rgba(21,23,20,1) 0%, rgba(21,23,20,0.4) 100%);
             }
             .hero-content {
                 text-align: center;
                 margin: 0 auto;
-                padding-top: 100px;
+                padding-top: 0;
             }
             .trust-badges {
                 justify-content: center;
@@ -654,21 +658,6 @@
                 <p>Mieten Sie top-gewartete Suzuki Jimny 4x4 oder Isuzu Double Cab Camper mit Dachzelt für Ihre Self-Drive Safari. Komplette Camping-Ausstattung, flexible Versicherungs-Optionen und Schweizer Ansprechpartner.</p>
                 
                 <a href="#anfragen" class="btn-primary">Offerte anfragen</a>
-
-                <div class="trust-badges">
-                    <div class="trust-badge">
-                        <i class="fa-solid fa-shield-halved"></i>
-                        <span>Zero Excess möglich</span>
-                    </div>
-                    <div class="trust-badge">
-                        <i class="fa-solid fa-campground"></i>
-                        <span>Komplett Ausgerüstet</span>
-                    </div>
-                    <div class="trust-badge">
-                        <i class="fa-solid fa-headset"></i>
-                        <span>24/7 Support</span>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
@@ -694,22 +683,22 @@
                         <div class="feature-icon">
                             <i class="fa-solid fa-truck-monster"></i>
                         </div>
-                        <h3>Heavy Duty 4x4</h3>
-                        <p>Doppelkabinen-Pickups (Toyota Hilux / Ford Ranger) mit verstärktem Fahrwerk (Heavy Duty Suspension) für höchste Zuverlässigkeit auf afrikanischen Schotterpisten.</p>
+                        <h3>Robuste 4x4 Flotte</h3>
+                        <p>Wählen Sie zwischen dem geräumigen Isuzu Double Cab (Automatik) für bis zu 4 Personen oder dem kompakten Suzuki Jimny – ideal für Solo-Abenteurer oder Paare.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">
                             <i class="fa-solid fa-tent"></i>
                         </div>
-                        <h3>Premium Camping</h3>
-                        <p>Inklusive 1-2 Dachzelten mit dicken Matratzen, Schlafsäcken, 40L Kompressor-Kühlschrank, Gaskocher, Stühlen und komplettem Küchenset.</p>
+                        <h3>Volle Camping-Ausrüstung</h3>
+                        <p>Inklusive 1-2 Dachzelten, 35-40L Kompressor-Kühlschrank, 50L Wassertank (Isuzu), Gaskocher, Campingstühlen und komplettem Küchen-Set für Ihre Unabhängigkeit.</p>
                     </div>
                     <div class="feature-card">
                         <div class="feature-icon">
                             <i class="fa-solid fa-gas-pump"></i>
                         </div>
-                        <h3>Long Range Ausrüstung</h3>
-                        <p>Ausgestattet mit 140L Doppel-Tank System und zwei vollwertigen Ersatzreifen für absolute Unabhängigkeit in der Wüste. Inklusive Kompressor und Reifen-Reparatur-Set.</p>
+                        <h3>Sicherheits-Paket</h3>
+                        <p>Ausgestattet mit zwei Ersatzreifen, Werkzeugset, Kompressor und 20L Reservekanister (Jimny). Unsere Fahrzeuge sind für Namibias anspruchsvolle Gravel-Roads optimiert.</p>
                     </div>
                 </div>
             </div>
@@ -725,22 +714,22 @@
                         <p>Jedes Fahrzeug wird nach jeder Vermietung von unseren Mechanikern in Windhoek komplett durchgecheckt. Sicherheit hat auf Namibias Strassen oberste Priorität.</p>
                         
                         <ul class="fleet-specs">
-                            <li><i class="fa-solid fa-check"></i> Fahrzeugübernahme direkt am Flughafen Windhoek</li>
+                            <li><i class="fa-solid fa-check"></i> Kostenloser Flughafen-Transfer (ab 15 Tagen Mietdauer)</li>
                             <li><i class="fa-solid fa-check"></i> Ausführliches Fahrzeug- und Streckenbriefing (Deutsch/Englisch)</li>
-                            <li><i class="fa-solid fa-check"></i> GPS & Satellitentelefon auf Wunsch zubuchbar</li>
+                            <li><i class="fa-solid fa-check"></i> 24/7 Support via WhatsApp während Ihrer gesamten Reise</li>
                             <li><i class="fa-solid fa-check"></i> 100% Preistransparenz – keine versteckten Gebühren vor Ort</li>
                         </ul>
                     </div>
                     
                     <div class="fleet-img-grid">
                         <div class="fleet-img large">
-                            <img src="images/2023-03-31.jpg" alt="Toyota Hilux 4x4 Camper in der Savanne">
+                            <img src="images/2023-03-31.jpg" alt="Isuzu Double Cab 4x4 Camper in der Savanne">
                         </div>
                         <div class="fleet-img small">
-                            <img src="images/IMG_0605.JPG" alt="Camping Setup mit Dachzelt">
+                            <img src="images/IMG_0605.JPG" alt="Suzuki Jimny Camping Setup">
                         </div>
                         <div class="fleet-img small">
-                            <img src="images/IMG_0628.JPG" alt="Mietwagen Flotte Namibia">
+                            <img src="images/IMG_0628.JPG" alt="Mietwagen Flotte Windhoek">
                         </div>
                     </div>
                 </div>
@@ -757,8 +746,8 @@
                 
                 <div class="gallery-track">
                     <div class="gallery-item"><img src="images/2023-03-31.jpg" alt="4x4 Mietwagen in Namibia"></div>
-                    <div class="gallery-item"><img src="images/IMG_0605.JPG" alt="4x4 Mietwagen mit Dachzelt"></div>
-                    <div class="gallery-item"><img src="images/IMG_0628.JPG" alt="Camper Ausrüstung"></div>
+                    <div class="gallery-item"><img src="images/IMG_0605.JPG" alt="Suzuki Jimny mit Dachzelt"></div>
+                    <div class="gallery-item"><img src="images/IMG_0628.JPG" alt="Isuzu 4x4 Ausrüstung"></div>
                     <div class="gallery-item"><img src="images/PXL_20241029_105701329~2.jpg" alt="Offroad Fahrzeug Namibia"></div>
                     <div class="gallery-item"><img src="images/PXL_20241029_110450245.MP.jpg" alt="Mietwagen in der Wüste"></div>
                     <div class="gallery-item"><img src="images/PXL_20241030_121936384.jpg" alt="Safari Fahrzeug mit Equipment"></div>
@@ -776,19 +765,19 @@
                 <div class="faq-container">
                     <div class="faq-item">
                         <h4>Benötige ich einen internationalen Führerschein?</h4>
-                        <p>Ja, in Namibia ist ein internationaler Führerschein in Kombination mit dem nationalen Führerschein obligatorisch für alle Fahrer.</p>
+                        <p>Ja, in Namibia ist ein internationaler Führerschein in Kombination mit dem nationalen Führerschein obligatorisch, sofern dieser nicht in Englisch verfasst ist.</p>
                     </div>
                     <div class="faq-item">
-                        <h4>Ist Fahren im Tiefsand oder Offroad erlaubt?</h4>
-                        <p>Unsere 4x4 Fahrzeuge sind für Schotterpisten (Gravel Roads) und markierte 4x4 Tracks ausgelegt. Das Fahren abseits offizieller Strassen (Offroad) oder in Salzwasser/am Strand ist aus versicherungstechnischen Gründen nicht gestattet.</p>
+                        <h4>Wie hoch ist das Mindestalter für Fahrer?</h4>
+                        <p>Das Mindestalter für die Anmietung beträgt 23 Jahre, und der Fahrer muss seit mindestens einem Jahr im Besitz einer gültigen Fahrerlaubnis sein. Das Höchstalter liegt bei 85 Jahren.</p>
                     </div>
                     <div class="faq-item">
-                        <h4>Wie funktioniert die Übergabe in Windhoek?</h4>
-                        <p>Du wirst in der Regel direkt am Internationalen Flughafen (Hosea Kutako) abgeholt und zum Depot nach Windhoek gefahren. Dort findet die gründliche Einweisung in das Fahrzeug und das Camping-Equipment statt (ca. 1-2 Stunden).</p>
+                        <h4>Wie funktioniert die Übergabe und der Transfer?</h4>
+                        <p>Bei einer Mietdauer ab 15 Tagen ist der Transfer vom Flughafen Hosea Kutako zu unserem Depot in Windhoek für 2 Personen inklusive. Bei kürzeren Mieten unterstützen wir Sie gerne bei der Organisation des Transports.</p>
                     </div>
                     <div class="faq-item">
-                        <h4>Sollte ich Vollkasko wählen?</h4>
-                        <p>Wir empfehlen dringend unsere "Super Cover" oder "Zero Excess" (Vollkasko ohne Selbstbehalt). Aufgrund der vielen Schotterstrassen sind Steinschläge (Glas/Reifen) häufig, diese sind im Premium-Paket komplett abgedeckt, was dir eine komplett sorgenfreie Reise ermöglicht.</p>
+                        <h4>Welche Versicherungsoptionen gibt es?</h4>
+                        <p>Wir bieten drei Stufen an: Standard (mit Selbstbehalt), Reduced Excess und unsere beliebte "Super Waiver" Option (Zero Excess). Letztere reduziert Ihren Selbstbehalt auf ein Minimum und deckt oft auch Glas- und Reifenschäden ab.</p>
                     </div>
                 </div>
             </div>
@@ -818,6 +807,16 @@
                         <div class="form-group">
                             <label class="form-label">E-Mail Adresse</label>
                             <input type="email" name="email" class="form-input" required placeholder="name@beispiel.ch">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Bevorzugtes Fahrzeug</label>
+                            <select name="fahrzeug" class="form-select" required>
+                                <option value="" disabled selected>Bitte wählen</option>
+                                <option value="Suzuki Jimny 4x4 (max. 2 Personen)">Suzuki Jimny 4x4 (max. 2 Personen)</option>
+                                <option value="Isuzu Double Cab 4x4 (2-4 Personen)">Isuzu Double Cab 4x4 (2-4 Personen)</option>
+                                <option value="Noch unsicher / Beratung erwünscht">Noch unsicher / Beratung erwünscht</option>
+                            </select>
                         </div>
 
                         <div class="form-row">
@@ -855,7 +854,7 @@
                 </div>
                 <div>
                     <h4 style="color: #fff; font-family: 'Oswald', sans-serif; letter-spacing: 0.1em;">Kontakt</h4>
-                    <p style="margin-bottom: 5px;"><a href="mailto:info@namibia-mietwagen.ch">info@namibia-mietwagen.ch</a></p>
+                    <p style="margin-bottom: 5px;"><a href="mailto:namibia.mietwagen.ch@gmail.com">namibia.mietwagen.ch@gmail.com</a></p>
                     <p><a href="https://namibia-mietwagen.ch">namibia-mietwagen.ch</a></p>
                 </div>
             </div>
