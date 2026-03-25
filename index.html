@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namibia Mietwagen & 4x4 Camper mieten | Premium Self-Drive Safaris</title>
+    <meta name="description"
+        content="Mieten Sie top-gewartete 4x4 Fahrzeuge mit Dachzelt für Ihre Namibia Reise. Schweizer Qualität, voll ausgestattet, keine versteckten Kosten. Jetzt Offerte anfragen!">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://namibia-mietwagen.ch/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://namibia-mietwagen.ch/">
+    <meta property="og:title" content="Namibia Mietwagen & 4x4 Camper mieten | Premium Self-Drive">
+    <meta property="og:description"
+        content="Top-gewartete 4x4 Fahrzeuge mit Dachzelt für Ihre Namibia Reise. Schweizer Qualität, voll ausgestattet.">
+    <meta property="og:image" content="https://namibia-mietwagen.ch/images/PXL_20241029_110450245.MP.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://namibia-mietwagen.ch/">
+    <meta name="twitter:title" content="Namibia Mietwagen & 4x4 Camper mieten">
+    <meta name="twitter:description"
+        content="Top-gewartete 4x4 Fahrzeuge mit Dachzelt für Ihre Namibia Reise. Schweizer Qualität, voll ausgestattet.">
+    <meta name="twitter:image" content="https://namibia-mietwagen.ch/images/PXL_20241029_110450245.MP.jpg">
+
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --clr-base: #151714;      /* Deepest olive/charcoal */
+            --clr-surface: #1E211D;   /* Dark olive surface */
+            --clr-surface-light: #2A2E28;
+            --clr-accent: #E87A5D;    /* Sunset Orange */
+            --clr-accent-hover: #D96041;
+            --clr-sand: #A39E83;      /* Safari Khaki */
+            --clr-text: #E4DCD3;      /* Dust */
+            --clr-text-muted: #9A9588;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden !important;
+            font-family: 'Inter', sans-serif;
+            background-color: var(--clr-base);
+            color: var(--clr-text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 1.2;
+            color: var(--clr-text);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: var(--clr-text-muted);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 5vw;
+        }
+
+        /* ─── BUTTONS ─── */
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem 2.5rem;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #fff;
+            background-color: var(--clr-accent);
+            border: 2px solid var(--clr-accent);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: transparent;
+            color: var(--clr-accent);
+        }
+
+        /* ─── HERO ─── */
+        .hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+        }
+
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 60%;
+        }
+
+        .hero-bg::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(90deg, rgba(21,23,20,0.95) 0%, rgba(21,23,20,0.7) 50%, rgba(21,23,20,0.3) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 750px;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            font-family: 'Oswald', sans-serif;
+            font-size: 0.9rem;
+            color: var(--clr-sand);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 1rem;
+            border-left: 3px solid var(--clr-accent);
+            padding-left: 10px;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 6vw, 5rem);
+            margin-bottom: 1.5rem;
+            color: #fff;
+        }
+
+        .hero h1 span {
+            color: var(--clr-accent);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--clr-text);
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+        }
+
+        .trust-badges {
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+            flex-wrap: wrap;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .trust-badge i {
+            color: var(--clr-accent);
+            font-size: 1.5rem;
+        }
+
+        .trust-badge span {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1rem;
+            text-transform: uppercase;
+            color: var(--clr-text);
+        }
+
+        /* ─── INTRO CONTENT ─── */
+        .intro-section {
+            padding: 80px 0 40px;
+            background-color: var(--clr-base);
+        }
+        
+        .intro-text {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .intro-text h2 {
+            font-size: clamp(2rem, 3.5vw, 3rem);
+            color: var(--clr-sand);
+        }
+
+        /* ─── FEATURES ─── */
+        .features {
+            padding: 60px 0 100px;
+            background-color: var(--clr-base);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background-color: var(--clr-surface);
+            padding: 40px 30px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.02);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(163, 158, 131, 0.3);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(232, 122, 93, 0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--clr-accent);
+            font-size: 1.8rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+
+        /* ─── FLEET SHOWCASE ─── */
+        .fleet {
+            padding: 100px 0;
+            background-color: var(--clr-surface);
+            border-top: 1px solid rgba(255,255,255,0.05);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .fleet-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .fleet-img-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .fleet-img {
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .fleet-img.large {
+            grid-column: span 2;
+            height: 300px;
+        }
+        
+        .fleet-img.small {
+            height: 200px;
+        }
+
+        .fleet-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .fleet-img:hover img {
+            transform: scale(1.05);
+        }
+
+        .fleet-specs {
+            list-style: none;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .fleet-specs li {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            color: var(--clr-text);
+        }
+
+        .fleet-specs li i {
+            color: var(--clr-accent);
+            width: 24px;
+            text-align: center;
+        }
+
+        /* ─── GALLERY ─── */
+        .gallery {
+            padding: 100px 0;
+            background-color: var(--clr-base);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .section-header h2 {
+            font-size: clamp(2.5rem, 4vw, 3.5rem);
+        }
+
+        .gallery-track {
+            display: flex;
+            overflow-x: auto;
+            gap: 20px;
+            padding-bottom: 20px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--clr-accent) var(--clr-surface);
+        }
+
+        .gallery-track::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .gallery-track::-webkit-scrollbar-track {
+            background: var(--clr-surface);
+            border-radius: 4px;
+        }
+
+        .gallery-track::-webkit-scrollbar-thumb {
+            background-color: var(--clr-accent);
+            border-radius: 4px;
+        }
+
+        .gallery-item {
+            flex: 0 0 350px;
+            height: 250px;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+        
+        /* ─── FAQ ─── */
+        .faq-section {
+            padding: 80px 0 120px;
+            background-color: var(--clr-surface);
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--clr-base);
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.05);
+            padding: 25px;
+        }
+        
+        .faq-item h4 {
+            font-family: 'Inter', sans-serif;
+            text-transform: none;
+            font-size: 1.2rem;
+            color: var(--clr-sand);
+            margin-bottom: 10px;
+        }
+        
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+
+        /* ─── FORM SECTION ─── */
+        .form-section {
+            padding: 120px 0;
+            background-color: var(--clr-base);
+            position: relative;
+        }
+
+        .form-wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--clr-surface);
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+            border: 1px solid rgba(163, 158, 131, 0.2);
+            position: relative;
+            z-index: 10;
+            margin-top: -80px; /* Overlap effect */
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .form-header h2 {
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .form-label {
+            display: block;
+            font-family: 'Oswald', sans-serif;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--clr-sand);
+            margin-bottom: 8px;
+        }
+
+        .form-input, .form-select {
+            width: 100%;
+            background-color: var(--clr-base);
+            border: 1px solid rgba(255,255,255,0.08);
+            padding: 15px;
+            border-radius: 6px;
+            color: var(--clr-text);
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-input:focus, .form-select:focus {
+            outline: none;
+            border-color: var(--clr-accent);
+        }
+
+        .form-select {
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23A39E83' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            background-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 18px;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        #form-message {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .success-msg {
+            background-color: rgba(76, 175, 80, 0.1);
+            color: #81c784;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+
+        .error-msg {
+            background-color: rgba(244, 67, 54, 0.1);
+            color: #e57373;
+            border: 1px solid rgba(244, 67, 54, 0.3);
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            background-color: #0c0e0c;
+            padding: 80px 0 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-logo {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.8rem;
+            color: #fff;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .footer-logo span {
+            color: var(--clr-accent);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
+            color: var(--clr-text-muted);
+        }
+
+        /* ─── RESPONSIVE ─── */
+        @media (max-width: 992px) {
+            .fleet-grid {
+                grid-template-columns: 1fr;
+            }
+            .fleet-text {
+                order: -1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-bg::after {
+                background: linear-gradient(to top, rgba(21,23,20,1) 0%, rgba(21,23,20,0.4) 100%);
+            }
+            .hero-content {
+                text-align: center;
+                margin: 0 auto;
+                padding-top: 100px;
+            }
+            .trust-badges {
+                justify-content: center;
+            }
+            .form-row {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            .form-wrapper {
+                padding: 30px 20px;
+                margin-top: -40px;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .fleet-img-grid {
+                grid-template-columns: 1fr;
+            }
+            .fleet-img.large, .fleet-img.small {
+                grid-column: span 1;
+                height: 220px;
+            }
+        }
+    </style>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoRental",
+      "name": "Namibia Mietwagen",
+      "image": "https://namibia-mietwagen.ch/images/PXL_20241029_110450245.MP.jpg",
+      "url": "https://namibia-mietwagen.ch/",
+      "telephone": "+41 00 000 00 00",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Zürich",
+        "addressCountry": "CH"
+      },
+      "description": "Premium 4x4 Mietwagen und Camper für Self-Drive Safaris in Namibia. Schweizer Service, voll ausgestattet."
+    }
+    </script>
+</head>
+
+<body>
+
+    <!-- ══ HERO ══ -->
+    <header class="hero">
+        <div class="hero-bg">
+            <!-- Using one of the provided car images -->
+            <img src="images/PXL_20241029_110450245.MP.jpg" alt="4x4 Fahrzeug mit Dachzelt in Namibia">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tag">Offroad Abenteuer pur</span>
+                <h1>Namibia <span>4x4 Mietwagen</span><br>für Entdecker.</h1>
+                <p>Mieten Sie top-gewartete Suzuki Jimny 4x4 oder Isuzu Double Cab Camper mit Dachzelt für Ihre Self-Drive Safari. Komplette Camping-Ausstattung, flexible Versicherungs-Optionen und Schweizer Ansprechpartner.</p>
+                
+                <a href="#anfragen" class="btn-primary">Offerte anfragen</a>
+
+                <div class="trust-badges">
+                    <div class="trust-badge">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>Zero Excess möglich</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fa-solid fa-campground"></i>
+                        <span>Komplett Ausgerüstet</span>
+                    </div>
+                    <div class="trust-badge">
+                        <i class="fa-solid fa-headset"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <!-- ══ INTRO / SEO TEXT ══ -->
+        <section class="intro-section">
+            <div class="container">
+                <div class="intro-text">
+                    <h2>Dein Roadtrip durch das Land der Kontraste</h2>
+                    <p>Namibia auf eigene Faust zu erkunden, ist der Traum vieler Reisender. Die endlosen Weiten der Namib-Wüste, die wilden Tiere im Etosha Nationalpark und die raue Küste des Atlantiks lassen sich am besten im eigenen Tempo erleben. Die wichtigste Voraussetzung dafür? <strong>Ein zuverlässiger Mietwagen.</strong></p>
+                    <p>Wir haben uns auf die Vermietung von voll ausgestatteten 4x4 Offroadern spezialisiert. Unsere Fahrzeuge sind keine Standard-Mietwagen, sondern robuste Expeditionsfahrzeuge, die für die anspruchsvollen Schotterpisten und Sandwege Namibias optimiert wurden.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ FEATURES ══ -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-truck-monster"></i>
+                        </div>
+                        <h3>Heavy Duty 4x4</h3>
+                        <p>Doppelkabinen-Pickups (Toyota Hilux / Ford Ranger) mit verstärktem Fahrwerk (Heavy Duty Suspension) für höchste Zuverlässigkeit auf afrikanischen Schotterpisten.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-tent"></i>
+                        </div>
+                        <h3>Premium Camping</h3>
+                        <p>Inklusive 1-2 Dachzelten mit dicken Matratzen, Schlafsäcken, 40L Kompressor-Kühlschrank, Gaskocher, Stühlen und komplettem Küchenset.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-gas-pump"></i>
+                        </div>
+                        <h3>Long Range Ausrüstung</h3>
+                        <p>Ausgestattet mit 140L Doppel-Tank System und zwei vollwertigen Ersatzreifen für absolute Unabhängigkeit in der Wüste. Inklusive Kompressor und Reifen-Reparatur-Set.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ FLEET SHOWCASE ══ -->
+        <section class="fleet">
+            <div class="container">
+                <div class="fleet-grid">
+                    <div class="fleet-text">
+                        <h2>Dein Zuhause in der Wildnis.</h2>
+                        <p>Einsteigen, losfahren, ankommen. Unsere Fahrzeuge sind so konzipiert, dass du innert 5 Minuten dein Camp aufgebaut hast. Perfekt für das raue Gelände des Damaralands oder die Weiten des Etosha Nationalparks.</p>
+                        <p>Jedes Fahrzeug wird nach jeder Vermietung von unseren Mechanikern in Windhoek komplett durchgecheckt. Sicherheit hat auf Namibias Strassen oberste Priorität.</p>
+                        
+                        <ul class="fleet-specs">
+                            <li><i class="fa-solid fa-check"></i> Fahrzeugübernahme direkt am Flughafen Windhoek</li>
+                            <li><i class="fa-solid fa-check"></i> Ausführliches Fahrzeug- und Streckenbriefing (Deutsch/Englisch)</li>
+                            <li><i class="fa-solid fa-check"></i> GPS & Satellitentelefon auf Wunsch zubuchbar</li>
+                            <li><i class="fa-solid fa-check"></i> 100% Preistransparenz – keine versteckten Gebühren vor Ort</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="fleet-img-grid">
+                        <div class="fleet-img large">
+                            <img src="images/2023-03-31.jpg" alt="Toyota Hilux 4x4 Camper in der Savanne">
+                        </div>
+                        <div class="fleet-img small">
+                            <img src="images/IMG_0605.JPG" alt="Camping Setup mit Dachzelt">
+                        </div>
+                        <div class="fleet-img small">
+                            <img src="images/IMG_0628.JPG" alt="Mietwagen Flotte Namibia">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ CAR GALLERY ══ -->
+        <section class="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Unsere Flotte in Aktion</h2>
+                    <p>Ein Bild sagt mehr als tausend Worte. Eindrücke unserer Fahrzeuge auf den Strassen und Campsites in ganz Namibia.</p>
+                </div>
+                
+                <div class="gallery-track">
+                    <div class="gallery-item"><img src="images/2023-03-31.jpg" alt="4x4 Mietwagen in Namibia"></div>
+                    <div class="gallery-item"><img src="images/IMG_0605.JPG" alt="4x4 Mietwagen mit Dachzelt"></div>
+                    <div class="gallery-item"><img src="images/IMG_0628.JPG" alt="Camper Ausrüstung"></div>
+                    <div class="gallery-item"><img src="images/PXL_20241029_105701329~2.jpg" alt="Offroad Fahrzeug Namibia"></div>
+                    <div class="gallery-item"><img src="images/PXL_20241029_110450245.MP.jpg" alt="Mietwagen in der Wüste"></div>
+                    <div class="gallery-item"><img src="images/PXL_20241030_121936384.jpg" alt="Safari Fahrzeug mit Equipment"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ══ FAQ / WISSENSWERTES ══ -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Häufige Fragen zur Automiete</h2>
+                </div>
+                
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h4>Benötige ich einen internationalen Führerschein?</h4>
+                        <p>Ja, in Namibia ist ein internationaler Führerschein in Kombination mit dem nationalen Führerschein obligatorisch für alle Fahrer.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Ist Fahren im Tiefsand oder Offroad erlaubt?</h4>
+                        <p>Unsere 4x4 Fahrzeuge sind für Schotterpisten (Gravel Roads) und markierte 4x4 Tracks ausgelegt. Das Fahren abseits offizieller Strassen (Offroad) oder in Salzwasser/am Strand ist aus versicherungstechnischen Gründen nicht gestattet.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Wie funktioniert die Übergabe in Windhoek?</h4>
+                        <p>Du wirst in der Regel direkt am Internationalen Flughafen (Hosea Kutako) abgeholt und zum Depot nach Windhoek gefahren. Dort findet die gründliche Einweisung in das Fahrzeug und das Camping-Equipment statt (ca. 1-2 Stunden).</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Sollte ich Vollkasko wählen?</h4>
+                        <p>Wir empfehlen dringend unsere "Super Cover" oder "Zero Excess" (Vollkasko ohne Selbstbehalt). Aufgrund der vielen Schotterstrassen sind Steinschläge (Glas/Reifen) häufig, diese sind im Premium-Paket komplett abgedeckt, was dir eine komplett sorgenfreie Reise ermöglicht.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ FORM SECTION ══ -->
+        <section id="anfragen" class="form-section">
+            <div class="container">
+                <div class="form-wrapper">
+                    <div class="form-header">
+                        <h2>Unverbindliche Offerte anfordern</h2>
+                        <p>Fülle das Formular aus und erhalte innert 24 Stunden dein persönliches Angebot für einen 4x4 Mietwagen in Namibia. Beratung und Planung aus der Schweiz.</p>
+                    </div>
+
+                    <form id="rental-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Vorname</label>
+                                <input type="text" name="vorname" class="form-input" required placeholder="Dein Vorname">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Nachname</label>
+                                <input type="text" name="nachname" class="form-input" required placeholder="Dein Nachname">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">E-Mail Adresse</label>
+                            <input type="email" name="email" class="form-input" required placeholder="name@beispiel.ch">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Reisedauer in Tagen</label>
+                                <input type="number" name="reisedauer" min="1" class="form-input" required placeholder="z.B. 14">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Budgetvorstellung (Fahrzeug)</label>
+                                <select name="budget" class="form-select" required>
+                                    <option value="" disabled selected>Bitte wählen</option>
+                                    <option value="CHF 1000 - 2000">CHF 1'000 - 2'000</option>
+                                    <option value="CHF 2000 - 3000">CHF 2'000 - 3'000</option>
+                                    <option value="CHF 3000 - 4500">CHF 3'000 - 4'500</option>
+                                    <option value="CHF 4500+">CHF 4'500+</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" id="submit-btn" class="btn-primary btn-submit">Jetzt Offerte anfordern</button>
+                        
+                        <div id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">Namibia <span>Mietwagen</span></div>
+                    <p>Spezialisten für 4x4 Fahrzeugvermietung und Self-Drive Safaris in Namibia. Top-Service aus der Schweiz und direkt in Windhoek.</p>
+                </div>
+                <div>
+                    <h4 style="color: #fff; font-family: 'Oswald', sans-serif; letter-spacing: 0.1em;">Kontakt</h4>
+                    <p style="margin-bottom: 5px;"><a href="mailto:info@namibia-mietwagen.ch">info@namibia-mietwagen.ch</a></p>
+                    <p><a href="https://namibia-mietwagen.ch">namibia-mietwagen.ch</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Namibia Mietwagen. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('rental-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const submitBtn = document.getElementById('submit-btn');
+            const messageEl = document.getElementById('form-message');
+            
+            const originalText = submitBtn.innerText;
+            submitBtn.innerText = 'Wird gesendet...';
+            submitBtn.disabled = true;
+            
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+            
+            data._subject = "Neue Mietwagen Anfrage via namibia-mietwagen.ch";
+            
+            try {
+                const response = await fetch('https://formspree.io/f/xwvrgzqn', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                if (response.ok) {
+                    messageEl.className = 'success-msg';
+                    messageEl.style.display = 'block';
+                    messageEl.innerText = 'Vielen Dank für Ihre Anfrage! Wir senden Ihnen in Kürze eine Offerte.';
+                    form.reset();
+                } else {
+                    const json = await response.json();
+                    throw new Error(json.error || 'Ein Fehler ist aufgetreten.');
+                }
+            } catch (error) {
+                messageEl.className = 'error-msg';
+                messageEl.style.display = 'block';
+                messageEl.innerText = 'Fehler beim Senden: ' + error.message;
+            } finally {
+                submitBtn.innerText = originalText;
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+</body>
+</html>
